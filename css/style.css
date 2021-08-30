@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&display=swap');
+
+:root {
+  --light: #FBFEF9;
+  --dark: #1B1B1B;
+  --hot-pink: #FA61AD;
+  --neon-pink: #FF55A3;
+}
+
+html {
+  font-family: 'Open Sans', Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 95px;
+  margin-top: 1rem;
+}
+.right-align {
+  text-align: right;
+}
+.left, .right {
+  padding-bottom: 1rem;
+}
+h2 {
+  margin-top: 1.3rem;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  opacity: 0.9;
+}
+.right h2 {
+  font-size: 30px;
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: lowercase;
+  margin-bottom: 1rem;
+}
+.right h2, .right p {
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+.left p {
+  padding: 0.5rem 1.3rem 0.5rem 1.3rem;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.right p {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+.fa {
+  color: var(--dark);
+  border-radius: 50%;
+  font-size: 40px;
+  width: 40px;
+  margin: 1rem 1rem 0 1rem;
+}
+.fa:hover {
+  opacity: 0.8;
+}
+.fa-facebook {
+  font-size: 35px;
+  width: 35px;
+}
+.links {
+  width: 100%;
+  text-align: center;
+}
+.left {
+  min-height: 100vh;
+  background-color: var(--hot-pink);
+  color: var(--dark);
+  text-align: center;
+}
+.right {
+  min-height: 100vh;
+  background-color: var(--dark);
+  color: var(--light);
+}
+img.repo-image {
+  max-width: 100%;
+  border: 2px solid rgba(225, 225, 225, 0.9);
+}
+.left a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a.r:link, a.r:active, a.r:visited {
+  color: var(--neon-pink);
+  font-weight: bold;
+  opacity: 0.9;
+}
+a.r:hover {
+  opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .left, .right {
+    min-height: 50vh;
+  }
+  .right h2 {
+    font-size: 25px;
+    white-space: nowrap;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .right h2 {
+    white-space: normal;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .right h2.dc {
+    white-space: nowrap;
+  }
+}
