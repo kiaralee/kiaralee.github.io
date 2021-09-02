@@ -95,6 +95,13 @@ a.r:link, a.r:active, a.r:visited {
 a.r:hover {
   opacity: 0.8;
 }
+a.l:link, a.l:active, a.l:visited {
+  font-weight: bold;
+  opacity: 0.9;
+}
+a.l:hover {
+  opacity: 0.8;
+}
 
 
 @media only screen and (max-width: 768px) {
