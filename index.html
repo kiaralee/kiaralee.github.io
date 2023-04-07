@@ -23,11 +23,13 @@
     <meta name="msapplication-config" content="img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 
     <title>Kiara Hosie | Portfolio</title>
   </head>
@@ -37,107 +39,154 @@
     <div class="container-fluid">
       <div class="row">
 
-        <div class="col-12 col-lg-3 left">
-          <h1>kiara hosie</h1>
-          <h2>< musician | developer | educator ></h2>
-          <p>
-            Hi, I'm Kiara <i>(she/her).</i> I'm a classical oboist, web designer and developer, and educator.
-          </p>
-          <p>
-            I'm a fourth-year undergraduate BMus student at the <a href="https://www.uvic.ca/" target="_blank" class="l">University of Victoria</a>
-            majoring in musicology and sound studies with a minor in psychology. I'm passionate about accessibility and diversity in the arts and
-            hope to use technology to make music performance spaces more accessible for neurodivergent artists.
-          </p>
-          <p>
-            I'm currently working as a UX designer for <a href="https://lifecyclesproject.ca" target="_blank" class="l">LifeCycles</a>
-            and the program coordinator for <a href="https://hightechu.ca" target="_blank" class="l">HighTechU</a>.
-          </p>
-          <p class="links">
-            <a class="fa fa-instagram" href="https://www.instagram.com/mirror.blue/" target="_blank"></a>
-            <a class="fa fa-linkedin" href="https://www.linkedin.com/in/kiarahosie/" target="_blank"></a>
-            <a class="fa fa-github" href="https://github.com/kiaralee" target="_blank"></a>
-          </p>
-        </div>
+        <div class="col-12">
 
-        <div class="col-12 col-lg-9 right">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <h2>< LifeCycles Gleaning Hub ></h2>
-                <p>
-                  <a href="https://gleaning.lifecyclesproject.ca/" target="_blank">
-                    <img class="repo-image" src="img/gleaning_hub.png" alt="LifeCycles Gleaning Hub">
-                  </a>
-                </p>
-                <p>
-                  Volunteer and self-scheduling portal for LifeCycles, a project dedicated to sustainability and increasing food security
-                  in Greater Victoria.
-                </p>
-                <p>
-                  Redesign soft launched October 2022. Work is ongoing.
-                </p>
-                <p>
-                  <a class="r" href="https://gleaning.lifecyclesproject.ca/" target="_blank">site</a>
-                </p>
+          <div class="main">
+            <h1>kiara hosie</h1>
+            
+            <h2>< musician / developer / educator ></h2>
+            
+            <p>
+              Hi, I'm Kiara <i>(she/her).</i> I'm a classical oboe and English horn player, web designer and developer, and educator from Victoria, BC.
+            </p>
+            <p>
+              I'm a fourth-year undergraduate BMus student at the <a href="https://www.uvic.ca/" target="_blank" class="l">University of Victoria</a>
+              majoring in musicology and sound studies with a minor in psychology. I'm passionate about accessibility and diversity in the arts and
+              hope to use technology to make music performance spaces more accessible for neurodivergent artists.
+            </p>
+            <p>
+              In addition to teaching oboe, making reeds, and performing, I'm currently working as a UX designer for <a href="https://lifecyclesproject.ca" target="_blank" class="l">LifeCycles</a>
+              and the program coordinator for <a href="https://hightechu.ca" target="_blank" class="l">HighTechU</a>. Click through the tabs below to learn more about what I'm up to.
+            </p>
+            <p class="links">
+              <a class="fa fa-instagram" href="https://www.instagram.com/mirror.blue/" target="_blank"></a>
+              <a class="fa fa-linkedin" href="https://www.linkedin.com/in/kiarahosie/" target="_blank"></a>
+              <a class="fa fa-github" href="https://github.com/kiaralee" target="_blank"></a>
+            </p>
+           
+          </div>
+          
+          <!-- TABS HERE -->
+          
+          <div class="tab-wrapper"> 
+            <!-- use data-target value as ID to show tab content -->
+            <div class="tab-btns">
+              <button class="btn tab-btn color-1" data-target="tab-content-1">Music</button>
+              <button class="btn tab-btn color-2" data-target="tab-content-2">Tech</button>
+              <button class="btn tab-btn color-3" onclick="location.href='mailto:oboe.kiara@gmail.com'">Contact</button>
+            </div>
+            <div class="tab-contents">
+              <!-- single item -->
+              <div class="content color-1" id="tab-content-1">
+                <div class="container-fluid inner">
+                  <div class="row">
+                    <div class="col-12 col-md-7">
+                      <p>
+                        I'm a fourth-year BMus student at the University of Victoria studying under Russell Bajer of the Victoria Symphony. Although I began my musical career as a clarinettist, I've been playing oboe and English 
+                        horn for nine years. In addition to performing as a soloist and in student and amateur orchestras in the Greater Victoria area, I'm also experienced with musical theatre, wind band, and chamber music.
+                      </p>
+                      <p>
+                        As a private teacher, I take a patient and individualised approach. It's important to me to meet students where they're at, helping them set and meet 
+                        their own musical goals to reach their full potential. I welcome students of all ages and abilities— it's never too late to start! 
+                        <a class="r" href="mailto:oboe.kiara@gmail.com">Contact me</a> for lesson inquiries or to order handmade oboe reeds.
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <img class="first-media" src="img/ws_oboe.jpeg" alt="Kiara Hosie playing principal oboe in the UVic Wind Symphony">
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <div class="second-media embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ixGLxZ1kZ4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-7">
+                      <p>
+                        As a musicologist, my research interests include musical magic and witchcraft, musical myth (or mythical music!), historical music therapy, and 
+                        music's role in both national and personal identity creation. My recent research on therapeutic musical ecstasy in the Ancient Greco-Roman world <i>(Was Dionysus a Music Therapist?: Therapeutic Musical Ecstasy in the Ancient Greco-Roman World)</i> was supported by the 
+                        2022-23 <a class="r" href="https://onlineacademiccommunity.uvic.ca/LearnAnywhere/jcura/" target="_blank">Jamie Cassels 
+                        Undergraduate Research Award</a>, and can be <a class="r" href="http://hdl.handle.net/1828/14911" target="blank">viewed on UVic's online research repository</a>.
+                        <p>
+                          My article exploring how gender and music direction affect character identity in Shakespeare's <i>The Tempest</i>
+                        will be published in the forthcoming issue of <i><a class="r" href="https://ojs.lib.uwo.ca/index.php/notabene" target="_blank">Nota Bene: Canadian Undergraduate Journal of Musicology</a>.</i>
+                        </p>
+                      </p>
+                    </div>
+                    
+                  </div>
+                  
+                </div>
+                
               </div>
-              <div class="col-12 col-md-6">
-                <h2>< Music Discoveries Website ></h2>
-                <p>
-                  <a href="https://musicdiscoveries.github.io" target="_blank">
-                    <img class="repo-image" src="img/md.png" alt="Music Discoveries website">
-                  </a>
-                </p>
-                <p>
-                  The offical website of Music Discoveries, a bandcamp for middle school students hosted by the
-                  University of Victoria's Student Music Educators Association in collaboration with the UVic
-                  School of Music.
-                </p>
-                <p>
-                  Launched September 2021. Currently maintained by the MD team.
-                </p>
-                <p>
-                  <a class="r" href="http://musicdiscoveries.ca/" target="_blank">site</a>
-                </p>
+              <!-- end of single item -->
+              <!-- single item -->
+              <div class="content color-2 active" id="tab-content-2">
+                <div class="container-fluid inner">
+                  <p class="first">
+                    Check out my recent UX design and web development work below or <a class="r" href="https://github.com/kiaralee" target="_blank">visit my Github</a> to see more.
+                  </p>
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <h2>< LifeCycles Gleaning Hub ></h2>
+                      <p>
+                        <a href="https://gleaning.lifecyclesproject.ca/" target="_blank">
+                          <img class="repo-image" src="img/gleaning_hub.png" alt="LifeCycles Gleaning Hub">
+                        </a>
+                      </p>
+                      <p>
+                        Volunteer and self-scheduling portal for LifeCycles, a project dedicated to sustainability and increasing food security
+                        in Greater Victoria.
+                      </p>
+                      <p>
+                        Redesign soft launched October 2022. Work is ongoing.
+                      </p>
+                      <p>
+                        <a class="r" href="https://gleaning.lifecyclesproject.ca/" target="_blank">site</a>
+                      </p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <h2>< Music Discoveries Website ></h2>
+                      <p>
+                        <a href="https://musicdiscoveries.github.io" target="_blank">
+                          <img class="repo-image" src="img/md.png" alt="Music Discoveries website">
+                        </a>
+                      </p>
+                      <p>
+                        The offical website of Music Discoveries, a bandcamp for middle school students hosted by the
+                        University of Victoria's Student Music Educators Association in collaboration with the UVic
+                        School of Music.
+                      </p>
+                      <p>
+                        Launched September 2021. Currently maintained by the MD team.
+                      </p>
+                      <p>
+                        <a class="r" href="http://musicdiscoveries.ca/" target="_blank">site</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-12 col-md-6">
-                <h2>< HighTechU Website ></h2>
-                <p>
-                  <a href="https://hightechu.ca/" target="_blank">
-                    <img class="repo-image" src="img/htu.png" alt="HighTechU website">
-                  </a>
-                </p>
-                <p>
-                  The offical website of HighTechU, an innovative technology learning community for high school students in British Columbia based in the University of Victoria's
-                  Department of Electrical Engineering.
-                </p>
-                <p>
-                  Original design launched in October 2018. Maintained by the HighTechU team since 2020; redesigned by HighTechU in 2022.
-                </p>
-                <p>
-                  <a class="r" href="https://github.com/kiaralee/official-website" target="_blank">repo</a>
-                </p>
-              </div>
-              <div class="col-12 col-md-6">
-                <h2 class="dc">< Digital Courtship ></h2>
-                <p>
-                  <img class="repo-image" src="img/dc.png" alt="Digital Courtship screenshot">
-                </p>
-                <p>
-                  Social media web app designed with community in mind. Digital Courtship makes it easier
-                  to come together in the digital age.
-                </p>
-                <p>
-                  While originally concieved as a simple date generator, this project is planned to undergo
-                  re-development / overhaul as a full social platform designed to facilitate easier ways to make plans with
-                  friends.
-                </p>
-              </div>
+              <!-- end of single item -->
+            
             </div>
           </div>
+
+
+
+
+
+
         </div>
+
+
+
+
+
+
+      
 
       </div>
     </div>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
   </body>
 </html>
