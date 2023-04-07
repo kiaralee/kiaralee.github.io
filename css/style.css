@@ -225,6 +225,8 @@ button {
   .right h2 {
     white-space: normal;
   }
+  .tab-wrapper .tab-btns .btn {
+    font-size:1rem;
 }
 @media only screen and (max-width: 320px) {
   .right h2.dc {
