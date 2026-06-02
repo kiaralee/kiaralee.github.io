@@ -1,5 +1,5 @@
-    
-document.addEventListener("DOMContentLoaded", function() { 
+
+document.addEventListener("DOMContentLoaded", function() {
     var tabWrapper = document.querySelector(".tab-wrapper");
     var tabBtns = document.querySelectorAll(".tab-btn");
     var tabContents = document.querySelectorAll(".tab-contents .content");
